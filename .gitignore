@@ -1,0 +1,43 @@
+# Virtual environment
+venv/
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test cache & coverage reports
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS & Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs and local files
+logs/
+*.log
+*.out
+
+# IDE & editor settings
+.vscode/
+.idea/
+*.swp
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Docker files (if using Docker)
+docker-compose.override.yml
